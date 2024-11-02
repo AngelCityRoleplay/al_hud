@@ -4,7 +4,7 @@ Config = {
         Info = {
             ["money-text-color"] = "#4d6973",
             ["bank-text-color"] = "#32a852",
-            ["job-text-color"] = "orange",
+            ["job-text-color"] = "#73c7ff",
         },
         Status = {
             healthBar = "red",
