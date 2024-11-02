@@ -1,5 +1,5 @@
 Config = {
-    Locale = GetConvar("esx:locale", "en"), -- If you want to change UI language texts you can do it here: web/src/assets/translate.json !!IMPORTANT that this can only be modified with the unbuilt version.
+    Locale = GetConvar("esx:locale", "de"), -- If you want to change UI language texts you can do it here: web/src/assets/translate.json !!IMPORTANT that this can only be modified with the unbuilt version.
     Colors = {
         Info = {
             ["money-text-color"] = "#4d6973",
@@ -22,10 +22,10 @@ Config = {
             ["speedo-progress-color"] = "orange",
             ["damage-progress-color"] = "#258539",
             ["speedo-all-texts"] = "orange",
-            ["engine-icon-color"] = "#FEC32C",
-            ["tempomat-icon-color"] = "#FEC32C",
-            ["light-icon-color"] = "#FEC32C",
-            ["door-icon-color"] = "#FEC32C",
+            ["engine-icon-color"] = "##73c7ff",
+            ["tempomat-icon-color"] = "##73c7ff",
+            ["light-icon-color"] = "##73c7ff",
+            ["door-icon-color"] = "##73c7ff",
             ["fuel-icon-color"] = "white",
             ["fuel-level-color"] = "white",
             ["mileage-level-color"] = "#eee",
@@ -44,7 +44,7 @@ Config = {
         Status = false,
         Vehicle = false,
         Weapon = false,
-        Position = false,
+        Position = true,
         Voice = false,
         Money = false,
         Info = false,
@@ -57,8 +57,8 @@ Config = {
         CenterStatuses = true,
     },
     Default = {
-        ServerLogo = "https://esx.s3.fr-par.scw.cloud/blanc-800x800.png",
-        Kmh = false,
+        ServerLogo = "",
+        Kmh = true,
         PassengerSpeedo = false, -- if this true , you can see speedometer if you don't driver
     },
 }
