@@ -61,11 +61,11 @@ const FirstRow = (props) =>{
                     <CircleInnerCircle/>
                     <p className="font-bold text-white">{props?.onlinePlayers}</p>
                 </div>
-                <div className="ml-4">
+{/*                 <div className="ml-4">
                     {
                         props?.serverLogo ? <img class="w-5/12" alt="no picture" src={props?.serverLogo}/> : <Logo/>
                     }
-                </div>
+                </div> */}
             </div>
         </Show>
     )
