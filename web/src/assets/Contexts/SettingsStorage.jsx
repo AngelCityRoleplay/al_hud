@@ -82,20 +82,20 @@ const initialState = {
         },
         {
             name: "engine-icon-color",
-            color: "#FEC32C"
+            color: "#73c7ff"
         },
 
         {
             name: "tempomat-icon-color",
-            color: "#FEC32C"
+            color: "#73c7ff"
         },
         {
             name: "light-icon-color",
-            color: "#FEC32C"
+            color: "#73c7ff"
         },
         {
             name: "door-icon-color",
-            color: "#FEC32C"
+            color: "#73c7ff"
         },
         {
             name: "fuel-icon-color",
